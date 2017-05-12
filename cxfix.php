@@ -1,5 +1,7 @@
 <?php
-$token = 'EAAAAAYsX7TsBAHWeZANENFsaITLfqjbJKDGOnSHjlZBf9aDJYU3HuUz7suZCyGEnoCDaZA2mfm1ElFAsPpDWg0l4jE8n6uJGuINdlbZA4IVhxCUfWkVFm70YhOguvN4cMG89Mfd4wRX9NigrGlJJAU2qH3tW31Ar2WBszpQcLlYjzbKp9CeYcJc3fuvT24EcN2ZBuMfvW7z2lEGIsKdhSL'; //token of Nguyen
+//code by Nguyên Ary
+//fix by Anh Văn
+$token = ''; //token of Nguyen
 $limitnf=20; // 20 Status Ở Trang
 $getme = json_decode(load('https://graph.facebook.com/me?fields=id&access_token'.$token),true);
 
